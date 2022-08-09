@@ -817,3 +817,27 @@ body {
 .title__hr_top {
   bottom: 69px;
 }
+
+.footer {
+  position: relative;
+}
+.footer__img {
+  position: absolute;
+  bottom: 0px;
+  left: -250px;
+}
+.footer__container {
+  min-height: 272px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.footer__title {
+  margin-bottom: 20px;
+}

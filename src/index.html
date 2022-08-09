@@ -9,6 +9,15 @@
     <meta name="description" content="Лучшие уроки игры на гитаре" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/fedff5bc74.js" crossorigin="anonymous"></script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -24,13 +33,13 @@
             <nav class="main-section__nav nav-menu">
                 <ul class="nav-menu__list">
                     <li class="nav-menu__list-item">
-                        <a href="#">Обо мне</a>
+                        <a href="#about-me">Обо мне</a>
                     </li>
                     <li class="nav-menu__list-item">
-                        <a href="#">Занятия</a>
+                        <a href="#exercises">Занятия</a>
                     </li>
                     <li class="nav-menu__list-item">
-                        <a href="#">Запись</a>
+                        <a href="#registration">Запись</a>
                     </li>
                 </ul>
             </nav>
@@ -92,7 +101,7 @@
 
     <!-- Вторая секция -->
 
-    <section class="second-section">
+    <section id="about-me" class="second-section">
         <div class="container second-section__container">
 
             <!-- Заголовок -->
@@ -167,7 +176,7 @@
 
     <!-- Третья секция -->
 
-    <section class="third-section">
+    <section id="exercises" class="third-section">
         <div class="third-section__container container">
             <div class="third-section__left-wrapper">
                 <!-- Заголовок -->
@@ -218,12 +227,31 @@
 
     <!-- Четвёртая секция -->
 
-    <footer class="fourth-section">
-        <div class="fourth-section__container container">
-
+    <footer id="registration" class="footer">
+        <div class="footer__container container">
+            <div class="footer__wrapper">
+                <img src="img/Гриф 1.png" alt="гриф гитары" class="footer__img">
+                <h2 class="footer__title title">
+                    Запишись на <br> пробный урок
+                    <hr class="title__hr title__hr_top">
+                </h2>
+                <div class="footer__icons-box icons">
+                    <div class="icons__item">
+                        <i class="fa-brands fa-skype"></i>
+                    </div>
+                    <div class="icons__item">
+                        <i class="fa-brands fa-vk"></i>
+                    </div>
+                    <div class="icons__item">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>
